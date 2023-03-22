@@ -1,0 +1,11 @@
+@mixin parrafo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin barra{
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+}

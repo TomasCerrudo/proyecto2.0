@@ -1,3 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
 body{
     background-color: #ffcf72;
 }
@@ -24,3 +33,14 @@ h3{
 }
 
 
+.container{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+   
+}
+
+.container img{
+    width: 100%;
+    border-radius: 15px;
+}

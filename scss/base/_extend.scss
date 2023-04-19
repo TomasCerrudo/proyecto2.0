@@ -1,18 +1,16 @@
-%dflex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+%dflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-
-%pym{
-    padding: 0px;
-    margin: 0px;
+%pym {
+  padding: 0px;
+  margin: 0px;
 }
 
-
-%espacios{
-    padding: 10px 10px;
+%espacios {
+  padding: 10px 10px;
 }

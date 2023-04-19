@@ -1,46 +1,30 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #ffcf72;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 
 
 
-
-body{
-    background-color: #ffcf72;
-}
-h1{ 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    
-}
-
-p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    
-}
-
-h2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    
-}
-h3{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
-
-
-.container{
-    width: 75vw;
-    max-width: 1000px;
-    min-width: 320px;
-   
-}
-
-.container img{
-    width: 100%;
-    border-radius: 15px;
-}

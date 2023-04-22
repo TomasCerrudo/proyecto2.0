@@ -1,31 +1,138 @@
-header {
-  background-color: #dd692c;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  justify-content: space-between;
-}
-header h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-}
-header h1 nav ul {
-  list-style: none;
-}
-header h1 nav ul a {
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
-footer {
+/* Header inicio*/
+
+header {
+  background-color: #dd692c;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  margin: 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+/* Footer inicio */
+
+footer{
   background-color: #dd692c;
   flex-direction: column;
   text-align: center;
 }
 
+form {
+	max-width: 500px;
+	margin: 0 auto;
+  background-color: #dd692c;
+  flex-direction: column;
+  text-align: center;
+}
+
+input[type=text], input[type=email], textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+	input[type=text], input[type=email], textarea {
+		width: 100%;
+	}
+}
+
+
+
+/* Body inicio */
+
 body {
   background-color: #ffcf72;
 }
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 20px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin: 20px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 20px;
+}
+
+.card{
+  margin: 20px;
+}
+
+
+.cortes{
+  margin: 20px;
+}
+
+.video{
+  margin-left: 480px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+  
+
 
 /*# sourceMappingURL=style.css.map */

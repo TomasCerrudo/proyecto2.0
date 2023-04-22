@@ -1,25 +1,12 @@
-$encabezado:(
-    'bg-header: #dd692c;
-    'ft-wt: 900;
-    'lt-st: none;
-)
+$encabezado: (
+  "bg-header": #dd692c,
+  "ft-wt": 900,
+  "lt-st": none,
+);
 
-
-
-
-$font-weights:(
-    'regular: 300,
-    'medium: 400,
-    'bold: 500
-    );
-
-
-
-
-
-
-
-    $casa:(
-    'bg-bd: #ffcf72;
-    'ft-wt: 500, 400, 300;
-    )
+$font-weights: (
+  "bg-bd": #ffcf72,
+  "regular": 300,
+  "medium": 400,
+  "bold": 500,
+);
